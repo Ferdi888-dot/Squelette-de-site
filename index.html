@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!On annonce quel langage on utilise>
+<html> <!On ouvre le champ contenant le code HTML>
+	
+	<link rel="stylesheet" href="stylesheet.css"> <!On lie le fichier CSS pour la mise en forme>
+
+	<head> <!On ouvre l'en-tête>
+		<title>Page principale</title> <!On déclare le titre qui s'affiche dans l'en-tête de page>
+		<link rel="icon" href="Icône.jpg"> <!On lie l'icône de page>
+		<meta charset="UTF-8"> <!Les caractères UTF-8 sont ceux de référence en français>
+	</head>
+	
+	<body> <!Le "body" contient tout ce qui s'affiche dans la page>
+		<h1>Page principale</h1> <!On met un titre de page>
+				
+		<nav> <!Le menu "nav" correspondd à la barre de navigation du site>
+			<a href="Annexes/page1.html" target="iframe">Page 1</a> <!On crée des liens pour chaque page annexe qui s'ouvre dans l'iframe>
+			<a href="Annexes/page2.html" target="iframe">Page 2</a>
+			<a href="Annexes/page3.html" target="iframe">Page 3</a>
+			<a href="Annexes/page4.html" target="iframe">Page 4</a>
+			<a href="Annexes/page5.html" target="iframe">Page 5</a>	
+		</nav>
+		
+		<iframe name="iframe" width=100% height=500px>
+			<img src="Icône.jpg">Icône</img>
+		</iframe> <!On déclare l'iframe avec une largeur en % pour le responsive>
+
+	</body>
+</html>

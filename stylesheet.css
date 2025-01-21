@@ -1,0 +1,23 @@
+html /* Mise en forme globale du site */
+	{font-family : Arial; /* On définit la police de la page */
+	}
+h1 /* Mise en forme du titre */
+	{text-align : center; /* On centre le titre dans la page */
+	text-decoration : underline; /* On souligne le titre */
+	}
+nav /* Mise en forme du menu de navigation */
+	{text-align : center;
+	height : 30 px; /* On définit la hauteur du menu de navigation */
+	width : 100%; /* On définit la largeur du menu à 100% pour le responsive */
+	}
+a /* Mise en forme des liens */
+	{color : white; /* Ecriture blanche */
+	text-decoration : none; /* On efface le soulignement des liens */
+	width : 20%; /* Largeur de chaque encadré de lien */
+	background-color : grey;
+	float : left; /* Position du menu à gauche */
+	}
+a:hover /* Liens lorsque survolés par la souris */
+	{background-color : black; /* Couleur de fond de l'encadré */
+	color : orange; /* Couleur de police */
+	}
