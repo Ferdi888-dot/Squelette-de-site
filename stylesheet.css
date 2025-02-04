@@ -9,6 +9,7 @@ nav /* Mise en forme du menu de navigation */
 	{text-align : center;
 	height : 30 px; /* On définit la hauteur du menu de navigation */
 	width : 100%; /* On définit la largeur du menu à 100% pour le responsive */
+	display : flex;
 	}
 a /* Mise en forme des liens */
 	{color : white; /* Ecriture blanche */
@@ -16,6 +17,13 @@ a /* Mise en forme des liens */
 	width : 20%; /* Largeur de chaque encadré de lien */
 	background-color : grey;
 	float : left; /* Position du menu à gauche */
+	vertical-align : middle;
+	align-items : start;
+	}
+.lien
+	{display : flex;
+	justify-content : center;
+	align-items : center;
 	}
 a:hover /* Liens lorsque survolés par la souris */
 	{background-color : black; /* Couleur de fond de l'encadré */
