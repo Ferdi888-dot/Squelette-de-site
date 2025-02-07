@@ -7,7 +7,6 @@ h1 /* Mise en forme du titre */
 	}
 nav /* Mise en forme du menu de navigation */
 	{text-align : center;
-	height : 30 px; /* On définit la hauteur du menu de navigation */
 	width : 100%; /* On définit la largeur du menu à 100% pour le responsive */
 	display : flex;
 	}
