@@ -1,5 +1,6 @@
 html /* Mise en forme globale du site */
 	{font-family : Arial; /* On définit la police de la page */
+	font-size : 20px;
 	}
 h1 /* Mise en forme du titre */
 	{text-align : center; /* On centre le titre dans la page */
